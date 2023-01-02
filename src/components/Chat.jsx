@@ -9,7 +9,7 @@ import icon from "../images/emoji.svg";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("https://bazl1.github.io/");
+const socket = io.connect("https://rococo-treacle-6d910d.netlify.app");
 
 const Chat = () => {
   const { search } = useLocation();
